@@ -39,7 +39,7 @@ function setup() {
 
 	ellipseMode(CENTER);
 
-	packageBody = Bodies.circle(width/2 , 200 , 24 , {restitution:0.8,isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 20 , {restitution:0.8,isStatic:true});
 	World.add(world, packageBody);
 	
 
